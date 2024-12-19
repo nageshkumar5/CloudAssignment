@@ -11,7 +11,7 @@ spark = SparkSession.builder \
 
 print("checkpoint.....2")
 # HDFS path to the JSON file
-hdfs_path = "hdfs://namenode:9000/data/input/competitions.json"
+hdfs_path = "hdfs://namenode:9000/competitions.json"
 output_directory = "hdfs://namenode:9000/data/output"
 print(hdfs_path)
 
